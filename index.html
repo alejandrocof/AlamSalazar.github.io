@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>ConversorUnidades</title>
+        <link rel="stylesheet" href="./recursos/styles.css">
+    </head>
+    <body>
+        <h1><span class="blanco">Conversor de Unidades</span></h1>
+        <h2><span class="blanco">Selecciona el tipo de unidades a convertir</span></h2>
+        <form name="navegador">
+            <select name="tipo" onchange="destino();" >
+                <option value="" disabled selected>Selecciona una opci&oacuten
+                <option value="volumen/volumen.html">Volumen
+                <option value="longitud/longitud.html">Longitud
+                <option value="temperatura/temperatura.html">Temperatura
+                <option value="presion/presion.html">Presion
+                <option value="masa/masa.html">Masa
+                <option value="tamDatos/tamDatos.html">Tamaño de datos
+            </select>
+            <p></p>
+            <img src="./recursos/shark.gif" id="imag">
+        </form>
+        <script src="./recursos/script.js"></script>
+    </body>
+</html>

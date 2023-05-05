@@ -1,0 +1,22 @@
+#imag {width: 30rem;}
+
+#ini { /*boton inicio*/
+    width: 10rem; 
+    height: 5rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color: rebeccapurple;
+    color: white;
+    text-size-adjust: 50%;
+
+}
+
+.fondo1 {background: dimgrey;}
+.fondo2 {background: khaki;}
+.fondo3 {background: lavender;}
+.fondo4 {background: lightpink;}
+.fondo5 {background: lightsalmon;}
+.fondo6 {background: aquamarine;}
+.fondo7 {background: springgreen;}
+
+.blanco{color:white;}
